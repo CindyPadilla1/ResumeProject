@@ -1,0 +1,117 @@
+html {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman",'Poppins',sans-serif;
+}
+
+nav {
+    background-color: #00ABE4;
+}
+
+body {
+    background-color: aqua;
+}
+
+#navImg {
+    width: 6%;
+}
+.navbar-brand{
+    font-weight: bold;
+    padding-left: .5rem;
+    padding-right: 0;
+}
+.nav-link{
+    display: inline;
+    font-size: .7rem;
+}
+.home{
+    margin-left: 0;
+}
+.about{
+    font-weight: bold;
+}
+.mainBox {
+    display: grid;
+    grid: auto/ 3fr 1fr;
+    margin-left: 1rem;
+}
+.form-label{
+    padding-bottom: 0;
+    margin: 0;
+
+}
+.form-check-label{
+    position: relative;
+}
+
+.formBox {
+    border: black solid 1px;
+    font-size: .7rem;
+    margin-bottom: 0;
+}
+#age, #name{
+    font-size: .7rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+.tellUs {
+    display: flex;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+
+}
+.form-label{
+    padding-top: 0;
+}
+.form-control{
+    border: black solid 1px;
+    border-radius: 0;
+}
+.sideImg {
+    width: 30%;
+    position: relative;
+    top: 30%;
+    left: .5rem;
+
+}
+.subContainer{
+    display: flex;
+
+}
+.left{
+    width: 47%;
+}
+.favorite{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: .9rem;
+
+}
+
+.footer{
+    background-color: #00ABE4;
+    padding: 1.6rem .5rem;
+    margin-top: 0;
+    font-size: .9rem;
+    height: 400px;
+}
+.footer a{
+    color: black;
+
+}
+.btn{
+    font-size: .6rem;
+    margin-left: .3%;
+}
+@media screen and (max-width: 992px) {
+    .navbar-nav{
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+}

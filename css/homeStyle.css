@@ -1,0 +1,116 @@
+html{
+    font-size: 20px;
+    font-family: "Times New Roman",'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00ABE4;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 5fr 1fr;
+    background-color: aqua;
+    width: 100vw;
+
+}
+.header{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.navBar{
+    grid-column: span 2;
+    border-bottom: #00ABE4 1px solid;
+    border-top: #00ABE4 1px solid;
+}
+main{
+    border-right: #00ABE4 1px solid;
+}
+.hTitle{
+    font-size: 1.2rem;
+    align-content: center;
+
+}
+.marioPizza {
+    width: 5%;
+    padding: .7rem 37% .5rem .5rem;
+
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightImg{
+    width: 45%;
+    position: relative;
+    bottom: 4rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: .3rem .5rem .3rem 1.5rem;
+
+}
+nav > a {
+    text-decoration: none;
+    color: darkblue;
+    padding-right: .8rem;
+    font-size: .8rem;
+}
+#currentLink{
+    font-weight: bold;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size:1.1rem;
+    padding-top: 1rem;
+}
+
+
+.formBox{
+    border: 1px solid black;
+    margin: .5rem 0rem 2rem 0rem;
+
+}
+.form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-row-gap: .5rem;
+    font-size: .8rem;
+
+}
+input{
+    margin-bottom: .3rem;
+}
+input.checkBox{
+    width: .8rem;
+}
+label{
+    text-align: right;
+    padding-right: .5rem;
+}
+
+button{
+    border: black solid 1px;
+    background-color: rgba(255,250,0,0.95);
+    width: 3rem;
+    font-size: .7em;
+    padding: .2rem;
+}
+button:hover{
+    background-color: rgba(255,250,0,0.70);
+}
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 15px;
+    }
+}
